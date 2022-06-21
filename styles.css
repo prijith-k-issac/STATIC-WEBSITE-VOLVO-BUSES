@@ -1,0 +1,367 @@
+p{
+  font-family: roboto;
+}
+.header{
+  display:block;
+  height: 178px;
+  width: 1366px;
+  background-color: white;
+  position: relative;
+}
+.header-top{
+  display:grid;
+  grid-template-columns: 90px 90px;
+  height:127px;
+  width:390px;
+  margin-left: 140px;
+  
+}
+.header-top-right{
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px;
+  height: 40px;
+  width: 780px;
+  position: absolute;
+  right: 0px;
+  top: 15px;
+ margin-top: 0px;
+ white-space: nowrap;
+ margin-right: 50px;
+ justify-content: center;
+ 
+}
+.header-icons{
+  display:flex;
+  height: 20px;
+  padding-left: 100px;
+}
+.icon-text{
+  margin-top: 4px;
+  margin-left: 5px;
+  height: 30px;
+  width: 40px;
+  display:inline-block;
+  font-size: 12px;
+  font-weight: 400;
+}
+.header-search-bar{
+  position: absolute;
+  top: 57px;
+  right: 105px;
+}
+.header-search-bar-specs{
+height: 25px;
+width: 250px;
+}
+.volvo-caption1{
+  font-size: 15px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.volvo-caption2{
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 50px;
+}
+.header-bottom-block{
+  display: block;
+  height: 50px;
+  width:100%;
+}
+.header-bottom{
+  display:grid;
+  grid-template-columns: 120px 120px 120px 120px 120px 120px 120px 120px;
+  background-color: rgb(225, 223, 221);
+  padding-top: 10px;
+  padding-left: 150px;
+  justify-content:;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 400;
+  width:100%;
+
+}
+.thumbnail-block{
+  position: relative;
+  height: 604px;
+  width: 1366px;
+  background-color: blue;
+}
+.thumbnail1{
+    height: 604px;
+    width:100%;
+    object-fit: cover;
+    
+   }
+  .caption-above-thumbnail{
+      position:absolute;
+      top:400px;
+      left:430px;
+   }
+   .caption1{
+    text-align: center;
+    color: white;
+    font-size:28px;
+    font-weight: 700;
+   }
+   .caption2{
+    text-align: center;
+    color: white;
+    font-size:14px;
+    font-weight: 700;
+   }
+   .thumbnail-search-bar{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+   }
+   .grid1{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     padding-right: 50px;
+     padding-left: 50px;
+     column-gap: 5px;
+     margin-top: 50px;
+   }
+   .grid1thumbnail1{
+     height: 300px;
+     max-width: 100%;
+     object-fit: cover;
+      
+   }
+   .grid1thumbnail2{
+     height: 300px;
+     max-width: 100%;
+     object-fit: cover;
+   }
+   .grid1thumbnail3{
+     height: 148px;
+     width: 100%;
+     object-fit: cover;
+     object-position: 0px;
+     
+  }
+  .grid1thumbnail4{
+   height: 148px;
+   max-width: 100%;
+   object-fit: cover;
+   
+  }
+  .grid1thumbnail5{
+   height: 300px;
+   width: 201.2%;
+   object-fit: cover;
+ 
+  }
+  .grid1thumbnail6{
+   height: 300px;
+   max-width: 100%;
+   object-fit: cover;
+  }
+  .text-heading{
+   font-size: 32px;
+   text-align: center;
+  }
+  .grid2{
+   display: grid;
+   grid-template-columns: 200px 1fr 1fr 1fr 200px;
+  }
+  .left-button{
+  margin-top: 50px;
+  height:100px;
+  width:50px;
+  margin-left: 150px;
+  }
+  .image1{
+   width: 313.328px;
+   height: 176.953px;
+   object-fit: cover;
+  }
+  .image2{
+   width: 313.328px;
+   height: 176.953px;
+   object-fit: cover;
+  }
+  .image3{
+   width: 313.328px;
+   height: 176.953px;
+   object-fit: cover;
+  }
+  .item-des{
+   text-align: center;
+   font-size: 24px;
+   font-weight: 400px;
+   line-height: 24px;
+  }
+  .right-button{
+  margin-top: 50px;
+  height:100px;
+  width:50px;
+  margin-right: 150px;
+  }
+  .exploration-tab{
+    display: block;
+    height: 250px;
+    background-color: rgb(225, 223, 221);
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    
+  }
+  .text1{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400px;
+    padding-top: 75px;
+   
+  }
+  .text2{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-top: -15px;
+  }
+  .search-bar1{
+    display: block;
+    width: 350px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-top: 32px;
+    text-align: center;
+  }
+  .whyvolvo-tab{
+    display: block;
+    height: 873.5px;
+    background-color: rgb(225, 223, 221);
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  .text3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400px;
+    padding-top: 70px; 
+  }
+  .image4{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 402px;
+    width: 1138px;
+    padding-top: 5px;
+    
+  }
+  .grid3{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid3-column1{
+    margin-left: 28px;
+  }
+  .text4{
+   font-size: 24px;
+   font-weight: 400px;
+  }
+  .text5{
+   font-size: 16px;
+   font-weight: 400px;
+   line-height: 24px;
+   margin-top: -18px;
+  }
+  .grid3-column2{
+    margin-left: 28px;
+  }
+  .text6{
+    font-size: 24px;
+    font-weight: 400px;
+  }
+  .text7{
+   font-size: 16px;
+   font-weight: 400px;
+   line-height: 24px;
+   margin-top: -18px;
+  }
+  .search-bar2{
+    display: block;
+    width: 150px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  text-align: center;
+  }
+  .main-caption{
+    font-size: 32px;
+    font-weight: 400px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .grid4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-left: 78px;
+    margin-right: 78px;
+  }
+  .image5{
+    width:370px;
+    height:209px;
+    object-fit: cover;
+  }
+  .caption-dt{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400px;
+  }
+  .caption{
+    font-size: 24px;
+    font-weight: 400px;
+    line-height: 24px;
+  }
+  .caption-des{
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 24px;
+  }
+  .footer{
+    display:block;
+    height: 465px;
+    width: 1366px;
+    background-color: rgb(225, 223, 221);
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-right: 150px;
+  }
+  .block{
+    width: 150px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-color: rgb(83, 86, 90);
+  }
+  .block-heading{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration-color: rgb(83, 86, 90);
+  }
+  .text8{
+    display: inline-block;
+    padding-left: 100px;
+    width: 820px;
+    padding-top: 120px;
+  }
+  .text9{
+    display:inline-block;
+    padding-left:
+  }
+  
